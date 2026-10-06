@@ -28,7 +28,8 @@ dialogue to dismiss.
 - Schedules of 7 or 8 hours, daily/weekday/weekend/custom recurrence, streak
   targets, a calendar heatmap, and CSV + JSON export.
 
-📖 **Site & docs:** [`approxy-dev/sleep-guardian`](https://github.com/approxy-dev/sleep-guardian)
+🌐 **Live site:** [`sleep-guardian-lake.vercel.app`](https://sleep-guardian-lake.vercel.app) ·
+📖 **Source:** [`approxy-dev/sleep-guardian`](https://github.com/approxy-dev/sleep-guardian)
 
 ### 💻 PCReady — fresh PC, ready faster
 
@@ -39,7 +40,8 @@ PCReady rebuilds your Windows software environment after a fresh install.
 - Ships as a **self-contained portable binary** — no installer and no .NET
   runtime required; extract anywhere and run. SHA-256 published alongside it.
 
-📖 **Site & docs:** [`approxy-dev/PCReady`](https://github.com/approxy-dev/PCReady)
+🌐 **Live site:** [`pc-ready-gamma.vercel.app`](https://pc-ready-gamma.vercel.app) ·
+📖 **Source:** [`approxy-dev/PCReady`](https://github.com/approxy-dev/PCReady)
 
 ---
 
