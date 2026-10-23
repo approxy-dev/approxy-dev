@@ -1,80 +1,55 @@
 # Hi, I'm Approxy 👋
 
-**I build Windows desktop tools that respect your time and your machine — and the
-static sites that document them.**
-
-I work on small, self-contained utilities: no accounts, no telemetry, no
-phone-home, no dark patterns. If a tool makes a claim, the code that backs it is
-something you can read.
+I build small Windows tools that do one job well, and the websites that explain them.
+No accounts. No tracking. No surprises.
 
 ---
 
-## What I'm working on
+## What I've built
 
-### 🌙 SleepGuardian — a Windows bedtime commitment device
+### 🌙 [SleepGuardian](https://sleep-guardian-lake.vercel.app)
+A bedtime tool that actually works. At your curfew, your PC shuts down. When it
+turns back on, it stays locked until your wake time. No snooze button.
 
-SleepGuardian shuts your PC down at curfew and locks it until your wake time.
-It is a commitment device, not a reminder app: there is no snooze button and no
-dialogue to dismiss.
+- Runs as a Windows service, so closing the app doesn't stop it
+- Fully offline. Your data stays on your machine
+- Streaks, a calendar heatmap, and CSV/JSON export
 
-- **Enforced by a Windows service**, backed by a per-minute watchdog — closing
-  the tray app or killing the process does not end enforcement.
-- At curfew the machine powers off; on boot it goes straight into a full-screen
-  lock counting down to your wake time, with Task Manager, Command Prompt and
-  the Windows key restricted while locked.
-- **No network requests, no telemetry, no analytics, no update check.** Everything
-  lives locally in `C:\ProgramData\SleepGuardian` (SQLite), and any admin
-  password is stored only as a PBKDF2 hash, verified inside the service.
-- Schedules of 7 or 8 hours, daily/weekday/weekend/custom recurrence, streak
-  targets, a calendar heatmap, and CSV + JSON export.
+[Website](https://sleep-guardian-lake.vercel.app) · [Source](https://github.com/approxy-dev/sleep-guardian)
 
-🌐 **Live site:** [`sleep-guardian-lake.vercel.app`](https://sleep-guardian-lake.vercel.app) ·
-📖 **Source:** [`approxy-dev/sleep-guardian`](https://github.com/approxy-dev/sleep-guardian)
+### 💻 [PCReady](https://pc-ready-gamma.vercel.app)
+Just reinstalled Windows? PCReady sets up your apps for you.
 
-### 💻 PCReady — fresh PC, ready faster
+- 336 apps across 23 categories, with 5 ready-made setup profiles
+- Installs through WinGet
+- Single portable file, with no installer and no .NET needed
 
-PCReady rebuilds your Windows software environment after a fresh install.
-
-- **336 curated apps across 23 categories**, 5 setup profiles, automated
-  installation through **WinGet** and direct installers.
-- Ships as a **self-contained portable binary** — no installer and no .NET
-  runtime required; extract anywhere and run. SHA-256 published alongside it.
-
-🌐 **Live site:** [`pc-ready-gamma.vercel.app`](https://pc-ready-gamma.vercel.app) ·
-📖 **Source:** [`approxy-dev/PCReady`](https://github.com/approxy-dev/PCReady)
+[Website](https://pc-ready-gamma.vercel.app) · [Source](https://github.com/approxy-dev/PCReady)
 
 ---
 
-## How I build the sites
+## How I work
 
-Both product sites are static-first and deliberately boring:
-
-| | SleepGuardian site | PCReady site |
-| --- | --- | --- |
-| Framework | Next.js 15 (App Router) | TanStack Start |
-| UI | React 19, Tailwind CSS v4 | React 19, Vite 8, Tailwind CSS v4 |
-| Output | Fully static — no database, no API route, no form handler, no analytics, no third-party script | Statically prerendered (SSG) |
-| Extras | Self-hosted fonts, WCAG AA contrast, JSON-LD | Prerendered to 9 routes, deployable anywhere |
-
-I care about the unglamorous parts: canonical URLs, `sitemap.xml`, `robots.txt`,
-Open Graph tags, JSON-LD, and keeping the rendered page free of third-party
-scripts. Every product claim on the SleepGuardian site is traceable to a line of
-source — see [`DISCOVERY.md`](https://github.com/approxy-dev/sleep-guardian/blob/master/DISCOVERY.md).
+- **Honest software.** If a tool makes a claim, you can find the code behind it.
+- **Simple sites.** Fast, static, and free of third-party scripts.
+- **Details matter.** SEO, accessibility, clean releases, and checksums.
 
 ---
 
-## Toolbox
+## Tech I use
 
-**Languages & runtime** — TypeScript, JavaScript, C#, PowerShell
-**Front end** — React, Next.js, TanStack Start, Vite, Tailwind CSS
-**Platform** — Windows (WPF, Win32 services, scheduled tasks, WinGet)
-**Shipping** — GitHub Releases, Vercel, static prerendering
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=dotnet&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
 
 ---
 
-## Get in touch
+## Say hello
 
-- 📧 Email: [approxydev@gmail.com](mailto:approxydev@gmail.com)
-- 🐦 GitHub: [@approxy-dev](https://github.com/approxy-dev)
+📧 [approxydev@gmail.com](mailto:approxydev@gmail.com)
 
-I'm always happy to talk to people who build careful, honest software.
+If you care about building software carefully, I'd love to talk.
