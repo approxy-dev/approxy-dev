@@ -1,13 +1,22 @@
 # Hi, I'm Approxy (@approxy-dev) 👋
 
-**Windows Software Developer & Open Builder**
+**Android & Windows Software Developer · Open Builder**
 
-I build small, reliable Windows tools that do one job well, and the fast, privacy-first websites that explain them.
+I build small, reliable Android and Windows tools that do one job well, and the fast, privacy-first websites that explain them.
 No accounts. No telemetry. No surprises.
 
 ---
 
 ## What I've built
+
+### 📱 [Pausen](https://github.com/approxy-dev/Pausen-App)
+A quiet native Android app for bedtime plans, scroll pauses, and warm reading.
+
+- Scheduled wind-down, bedtime curfews, and a warm screen tint
+- Breathing pauses with a 24-hour commitment to help interrupt long scrolling sessions
+- Fully on-device: no internet permission, no accounts, no ads, and no analytics
+
+📥 [Download Android APK v1.10.2](https://github.com/approxy-dev/Pausen-App/releases/download/v1.10.2/Pausen-1.10.2.apk) · 💻 [Showcase website repository](https://github.com/approxy-dev/Pausen-App)
 
 ### 🌙 [SleepGuardian](https://sleepguardian.vercel.app)
 A bedtime commitment device for Windows. At your curfew, your PC shuts down. When it turns back on, it stays locked until your wake time. No snooze button.
@@ -39,6 +48,8 @@ Rebuild your Windows software environment after a fresh install.
 
 ## Tech Stack & Tools
 
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=black)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![WPF](https://img.shields.io/badge/WPF-0078D4?style=flat&logo=windows&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
