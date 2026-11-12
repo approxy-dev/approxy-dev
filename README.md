@@ -9,8 +9,8 @@ No accounts. No telemetry. No surprises.
 
 ## What I've built
 
-### 📱 [Pausen — Android Bedtime & Screen Time Pause App](https://github.com/approxy-dev/Pausen-App)
-A quiet native Android app for bedtime plans, scroll pauses, and warm reading. Download the official **Pausen APK** directly — no ads, no trackers, and no internet permission.
+### 📱 [Pausen — Android Bedtime App & Scroll Pause App](https://github.com/approxy-dev/Pausen-App)
+A quiet native Android bedtime app and scroll pause app (formerly **SleepGuardian APK**). Download the official **Pausen APK** directly — no ads, no trackers, and no internet permission.
 
 - Scheduled wind-down, bedtime curfews, and a warm screen tint
 - Breathing pauses with a 24-hour commitment to help interrupt long scrolling sessions
