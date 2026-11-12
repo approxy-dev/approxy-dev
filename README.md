@@ -27,14 +27,14 @@ A bedtime commitment device for Windows. At your curfew, your PC shuts down. Whe
 
 🌐 [Official Website](https://sleepguardian.vercel.app) · 💻 [Repository](https://github.com/approxy-dev/sleep-guardian)
 
-### 💻 [PCReady](https://pc-ready-gamma.vercel.app)
+### 💻 [PCReady](https://pcready.vercel.app)
 Rebuild your Windows software environment after a fresh install.
 
 - 336 curated apps across 23 categories, with 5 ready-made setup profiles
 - Automated package installation through Microsoft WinGet
 - Single portable binary — no installer, no extra runtime needed
 
-🌐 [Official Website](https://pc-ready-gamma.vercel.app) · 💻 [Repository](https://github.com/approxy-dev/PCReady)
+🌐 [Official Website](https://pcready.vercel.app) · 💻 [Repository](https://github.com/approxy-dev/PCReady)
 
 ---
 
@@ -65,5 +65,7 @@ Rebuild your Windows software environment after a fresh install.
 ## Contact & Connect
 
 - 🌐 **Website**: [sleepguardian.vercel.app](https://sleepguardian.vercel.app)
+                   [pcready.vercel.app](https://pcready.vercel.app)
+                   [pausenapk.vercel.app](https://pausenapk.vercel.app)
 - 🐙 **GitHub**: [github.com/approxy-dev](https://github.com/approxy-dev)
 - 📧 **Email**: [approxy-dev@gmail.com](mailto:approxy-dev@gmail.com)
