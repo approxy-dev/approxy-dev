@@ -9,14 +9,14 @@ No accounts. No telemetry. No surprises.
 
 ## What I've built
 
-### 📱 [Pausen](https://github.com/approxy-dev/Pausen-App)
-A quiet native Android app for bedtime plans, scroll pauses, and warm reading.
+### 📱 [Pausen — Android Bedtime & Screen Time Pause App](https://github.com/approxy-dev/Pausen-App)
+A quiet native Android app for bedtime plans, scroll pauses, and warm reading. Download the official **Pausen APK** directly — no ads, no trackers, and no internet permission.
 
 - Scheduled wind-down, bedtime curfews, and a warm screen tint
 - Breathing pauses with a 24-hour commitment to help interrupt long scrolling sessions
 - Fully on-device: no internet permission, no accounts, no ads, and no analytics
 
-📥 [Download Android APK v1.10.2](https://github.com/approxy-dev/Pausen-App/releases/download/v1.10.2/Pausen-1.10.2.apk) · 💻 [Showcase website repository](https://github.com/approxy-dev/Pausen-App)
+📥 [Download Pausen APK (v1.10.2)](https://github.com/approxy-dev/Pausen-App/releases/download/v1.10.2/Pausen-1.10.2.apk) · 💻 [Pausen Repository & Showcase](https://github.com/approxy-dev/Pausen-App)
 
 ### 🌙 [SleepGuardian](https://sleepguardian.vercel.app)
 A bedtime commitment device for Windows. At your curfew, your PC shuts down. When it turns back on, it stays locked until your wake time. No snooze button.
